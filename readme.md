@@ -82,7 +82,7 @@ git branch
 ```
 ![](screen_snips/git_branch.jpg)
 
-## Create and switching branches
+## Create and switch branches
 Use the following to create a branch and make it your working branch. Switch and checkout commands can be used here.
 ```
 git branch my_branch
@@ -104,3 +104,10 @@ git switch main
 git merge new_branch
 git merge my_branch
 ```
+
+## Deleting branch
+To delete the branch, use the following.
+```
+git branch -d new_branch
+```
+![](screen_snips/git_branch3.jpg)
