@@ -56,7 +56,7 @@ git push -u origin main
 ```
 ![](screen_snips/first_push.jpg)
 
-## Log check
+## History log check
 In order check out previous commands or events, we can use this log command to see a detailed description of all past events.
 ```
 git log
@@ -75,3 +75,32 @@ git log --stat --summary
 ```
 ![](screen_snips/git_log2.jpg)
 
+## Check available branches
+Use this to check current working branch and available switchable branches. The "*" denotes current branch.
+```
+git branch
+```
+![](screen_snips/git_branch.jpg)
+
+## Create and switching branches
+Use the following to create a branch and make it your working branch. Switch and checkout commands can be used here.
+```
+git branch my_branch
+git switch my_branch
+```
+![](screen_snips/git_branch1.jpg)
+
+We can also switch to a new branch that doesn't exist yet. The creation takes place simultaneously while switching.
+
+```
+git checkout -b new_branch
+```
+![](screen_snips/git_branch2.jpg)
+
+## Merge branches
+Once the changes are made to the branch, we can merge the branch into the main branch so that the changes will be reflected in the main branch. Switch to the main branch first and then merge.
+```
+git switch main
+git merge new_branch
+git merge my_branch
+```
