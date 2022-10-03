@@ -104,10 +104,17 @@ git switch main
 git merge new_branch
 git merge my_branch
 ```
-
+![](screen_snips/git_merge.jpg)
 ## Deleting branch
 To delete the branch, use the following.
 ```
 git branch -d new_branch
 ```
 ![](screen_snips/git_branch3.jpg)
+
+## Pull changes
+In case we made some changes in the remote repo and we want out local repo to be updated accordingly, we will use pull method
+```
+git pull
+```
+![](screen_snips/git_pull.jpg)
