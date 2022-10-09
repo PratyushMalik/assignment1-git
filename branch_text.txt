@@ -1,3 +1,4 @@
 This text should show up only in my_branch
 This text is inserted in the remote repo and must be pulled into local repo.
 This text is added using remote repo on github into a branch called test_branch.
+Now this text is added incorrectly into another branch called wrong_branch and therefore the pull request will be denied afterwards.
